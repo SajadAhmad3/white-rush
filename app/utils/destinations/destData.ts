@@ -2,17 +2,51 @@ export interface Destination {
   name: string;
   image: string;
   discount: string;
+  description: string;
 }
 
 export const destinationsData: Destination[] = [
-  { name: "Gulmarg", image: "/images/home/gulmarg.jpg", discount: "30% OFF" },
-  { name: "Srinagar", image: "/images/home/dal-lake.jpg", discount: "25% OFF" },
-  { name: "Sonmarg", image: "/images/home/sonamarg.jpg", discount: "35% OFF" },
-  { name: "Pahalgam", image: "/images/home/pahalgam.jpg", discount: "30% OFF" },
+  {
+    name: "Gulmarg",
+    image: "/images/home/gulmarg.jpg",
+    discount: "30% OFF",
+    description:
+      "A paradise for skiers and nature lovers, Gulmarg offers snowy peaks and scenic meadows.",
+  },
+  {
+    name: "Srinagar",
+    image: "/images/home/dal-lake.jpg",
+    discount: "25% OFF",
+    description:
+      "Famous for Dal Lake and houseboats, Srinagar blends serenity with rich Mughal gardens.",
+  },
+  {
+    name: "Sonmarg",
+    image: "/images/home/sonamarg.jpg",
+    discount: "35% OFF",
+    description:
+      "Known as the 'Meadow of Gold', Sonmarg offers stunning glaciers and trekking trails.",
+  },
+  {
+    name: "Pahalgam",
+    image: "/images/home/pahalgam.jpg",
+    discount: "30% OFF",
+    description:
+      "A peaceful valley town surrounded by lush forests, rivers, and mountain views.",
+  },
   {
     name: "Ladakh",
     image: "/images/home/ladakh-ride.jpg",
     discount: "20% OFF",
+    description:
+      "Explore high-altitude deserts, monasteries, and epic bike routes in rugged Ladakh.",
+  },
+  {
+    name: "Ladakh",
+    image: "/images/home/ladakh-ride.jpg",
+    discount: "20% OFF",
+    description:
+      "Explore high-altitude deserts, monasteries, and epic bike routes in rugged Ladakh.",
   },
 ];
 

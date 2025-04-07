@@ -9,14 +9,14 @@ const config: Config = {
   theme: {
     colors: {
       primary: {
-        DEFAULT: "#A35C7A",
-        500: "#A35C7A",
+        DEFAULT: "#3B82F6",
+        500: "#3B82F6",
       },
       secondary: {
-        DEFAULT: "#C890A7",
-        50: "#FBF5E5",
-        500: "#C890A7",
-        950: "#212121",
+        DEFAULT: "#DBFAFE",
+        50: "#E2E8F0",
+        500: "#DBFAFE",
+        950: "#020617",
       },
 
       pink: {
@@ -449,20 +449,6 @@ const config: Config = {
         600: "rgb(245, 245, 245)",
       },
     },
-    fontFamily: {
-      modicaMedium: ["var(--font-modica-medium)"],
-      modicaSemibold: ["var(--font-modica-semibold)"],
-      modicaLight: ["var(--font-modica-light)"],
-      heading: ["var(--font-modica-bold)"],
-      modicaItalic: ["var(--font-modica-light-italic)"],
-      modicRegular: ["var(--font-modica-regular)"],
-      modicBold: ["var(--font-modica-bold)"],
-
-      sfproRegular: ["var(--font-sfpro-regular)"],
-      sfproLight: ["var(--font-sfpro-light)"],
-      sfproMedium: ["var(--font-sfpro-medium)"],
-    },
-
     fontSize: {
       xxxs: "10px",
       xs: "12px",

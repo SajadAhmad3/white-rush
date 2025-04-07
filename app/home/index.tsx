@@ -11,10 +11,10 @@ import WhatsAppRedirect from "../components/whatsapp/whatsapp";
 
 function Home() {
   return (
-    <div>
+    <div className="">
       <Banner />
-      <Services />
       <Destinations />
+      <Services />
       <Packages />
       <Team />
       <ContactUs />

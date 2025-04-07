@@ -8,10 +8,10 @@ type cardPrps = {
 
 const ServiceCard = ({ title, description, Icon }: cardPrps) => {
   return (
-    <div className="flex flex-col gap-2 bg-white p-4 shadow-md rounded-md hover:bg-secondary hover:text-white transition-all duration-300 group">
-      <Icon className="w-12 h-12 text-primary group-hover:text-white transition-all duration-300" />
-      <h2>{title}</h2>
-      <p>{description}</p>
+    <div className="h-[180px] flex flex-col gap-2 bg-secondary p-4 shadow rounded-3xl  transition-all duration-300 group">
+      <Icon className="w-12 h-12 text-primary transition-all duration-300" />
+      <h2 className="font-semibold text-lg">{title}</h2>
+      <p className="text-sm">{description}</p>
     </div>
   );
 };
