@@ -7,10 +7,10 @@ import { useRouter } from "next/navigation";
 interface PackageProps {
   title: string;
   image: string;
-  location: string;
-  highlights: string[];
-  price: string;
-  description: string;
+  location?: string;
+  highlights?: string[];
+  price?: string;
+  description?: string;
 }
 
 const PackageCard: React.FC<PackageProps> = ({
@@ -46,7 +46,7 @@ const PackageCard: React.FC<PackageProps> = ({
         <h3 className="text-lg font-semibold text-black">{title}</h3>
         <p className="text-[14px]">{description}</p>
         <ul className="list-disc pl-4 flex flex-col gap-2 pt-2">
-          {highlights.map((highlight, index) => (
+          {highlights?.map((highlight, index) => (
             <li key={index} className="text-[12px] text-black font-semibold">
               {highlight}
             </li>

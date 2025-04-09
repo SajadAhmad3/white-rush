@@ -41,11 +41,19 @@ export const DestinationGrid = ({
 }) => {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-      {destinationsData.map((destination, index) => (
-        <Link href={`/destinations`} key={index}>
-          <DestinationCard destination={destination} />
-        </Link>
-      ))}
+      {destinationsData.map((destination, index) => {
+        const isHiddenOnMobile = index > 2; // Show only first 3 on mobile
+        return (
+          <Link
+            href={`/destinations`}
+            key={index}
+            className={`${isHiddenOnMobile ? "hidden sm:block" : ""}`}
+          >
+            <DestinationCard destination={destination} />
+          </Link>
+        );
+      })}
     </div>
   );
 };
+

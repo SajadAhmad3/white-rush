@@ -13,6 +13,7 @@ import Image from "next/image";
 import Link from "next/link";
 import navigationData from "../Header/Nav.json";
 import { useRouter } from "next/navigation";
+import { EMAIL, SECONDARY_PHONE_NUMBER, WHATSAPP_NUMBER } from "@/app/utils/constants";
 
 const Footer = () => {
   const router = useRouter();
@@ -65,10 +66,10 @@ const Footer = () => {
               <PhoneCall size={25} className="text-yellow-500" />
               <div>
                 <Link href="/">
-                  <p className="text-md">+919596173535</p>
+                  <p className="text-md">{WHATSAPP_NUMBER}</p>
                 </Link>
                 <Link href="/">
-                  <p className="text-md">+916005252876</p>
+                  <p className="text-md">{SECONDARY_PHONE_NUMBER}</p>
                 </Link>
               </div>
             </div>
@@ -76,10 +77,10 @@ const Footer = () => {
               <MessageCircle size={25} className="text-yellow-500" />
               <div>
                 <Link href="/">
-                  <p className="text-md">+919596173535</p>
+                  <p className="text-md">{WHATSAPP_NUMBER}</p>
                 </Link>
                 <Link href="/">
-                  <p className="text-md">+916005252876</p>
+                  <p className="text-md">{SECONDARY_PHONE_NUMBER}</p>
                 </Link>
               </div>
             </div>
@@ -87,7 +88,7 @@ const Footer = () => {
               <Mail size={25} className="text-yellow-500" />
               <div>
                 <Link href="/">
-                  <p className="text-md break-all">peaksholidays@gmail.com</p>
+                  <p className="text-md break-all">{EMAIL}</p>
                 </Link>
               </div>
             </div>

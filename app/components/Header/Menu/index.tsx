@@ -26,7 +26,7 @@ const Menu: React.FC = () => {
   return (
     <div className="lg:hidden relative">
       <button
-        className={`text-primary focus:outline-none transform transition-transform duration-500 ${
+        className={`text-black bg-white rounded-full p-2 focus:outline-none transform transition-transform duration-500 ${
           isOpen ? "rotate-180" : "rotate-0"
         }`}
         onClick={toggleMenu}

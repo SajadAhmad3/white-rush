@@ -16,15 +16,15 @@ const Packages = () => {
       <Heading title="PACKAGES" description="Find Your Perfect Trip" />
       <div className="flex items-center justify-center my-5">
         <button
-          className="bg-primary hover:bg-primary transition duration-300 text-white px-4 py-2 text-sm font-bold"
+          className="bg-primary hover:bg-primary transition duration-300 text-white px-4 py-2 text-sm font-bold rounded-full"
           onClick={handleAllPackageClick}
         >
           View all Packages
         </button>
       </div>
       {/* Grid Layout */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10">
-        {homePackagesData.slice(0, 6).map((pkg, index) => (
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mt-10">
+        {homePackagesData?.slice(0, 6)?.map((pkg, index) => (
           <PackageCard key={index} {...pkg} />
         ))}
       </div>

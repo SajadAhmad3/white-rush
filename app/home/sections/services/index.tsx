@@ -27,7 +27,7 @@ const Services = () => {
             description={servicesData[1].description}
             Icon={servicesData[1].Icon}
           />
-          <div className="relative w-full h-[180px] rounded-xl overflow-hidden">
+          <div className="relative w-full h-[180px] rounded-xl overflow-hidden hidden md:block">
             <Image
               src="/images/home/banner.jpg"
               alt="Banner"
@@ -40,7 +40,7 @@ const Services = () => {
 
         {/* Middle Column - Image spanning 3 rows */}
         <div className="row-span-3 relative w-full h-full">
-          <div className="relative w-full h-full max-h-[590px] rounded-xl overflow-hidden">
+          <div className="relative w-full h-[590px] rounded-xl overflow-hidden">
             <Image
               src="/images/home/banner.jpg"
               alt="Banner"
@@ -53,7 +53,7 @@ const Services = () => {
 
         {/* Right Column */}
         <div className="flex flex-col gap-6">
-          <div className="relative w-full h-[180px] rounded-xl overflow-hidden">
+          <div className="relative w-full h-[180px] rounded-xl overflow-hidden hidden md:block">
             <Image
               src="/images/home/banner.jpg"
               alt="Banner"
