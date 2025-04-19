@@ -13,7 +13,11 @@ const Packages = () => {
   };
   return (
     <Container className="mb-10 ">
-      <Heading title="PACKAGES" description="Find Your Perfect Trip" />
+      <Heading
+        title="PACKAGES"
+        description="Find Your Perfect Trip"
+        titleClasses="!text-[45px] md:!text-[100px] lg:!text-[130px] "
+      />
       <div className="flex items-center justify-center my-5">
         <button
           className="bg-primary hover:bg-primary transition duration-300 text-white px-4 py-2 text-sm font-bold rounded-full"

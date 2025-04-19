@@ -7,7 +7,11 @@ import React from "react";
 const Destinations = () => {
   return (
     <Container className="my-5 md:my-20">
-      <Heading title="DESTINATION" description="Featured Destinations" />
+      <Heading
+        title="DESTINATION"
+        description="Featured Destinations"
+        titleClasses="!text-[35px] md:!text-[100px] lg:!text-[130px] "
+      />
       <p className="my-4 md:my-10 max-w-3xl mx-auto text-center text-base md:text-lg text-muted">
         Explore our handpicked destinations that promise unforgettable
         experiences. Whether you are craving mountains, beaches, or cities —

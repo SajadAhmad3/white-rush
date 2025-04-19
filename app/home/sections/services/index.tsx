@@ -8,7 +8,11 @@ import React from "react";
 const Services = () => {
   return (
     <Container className="my-10">
-      <Heading title="CHOOSE US" description="Your Trusted Travel Partner" />
+      <Heading
+        title="CHOOSE US"
+        description="Your Trusted Travel Partner"
+        titleClasses="!text-[45px] md:!text-[100px] lg:!text-[130px] "
+      />
       <p className="my-4 md:my-10 max-w-3xl mx-auto text-center text-base md:text-lg text-muted">
         Trusted by thousands, we make every journey seamless and memorable —
         with personalized service, top destinations, and unbeatable value.
