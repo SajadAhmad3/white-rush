@@ -16,7 +16,7 @@ const Header = () => {
   };
 
   return (
-    <div className="absolute w-full top-0 left-0 right-0 bg-black">
+    <div className={`${pathname === "/" ? "absolute" : ""} w-full top-0 left-0 right-0 bg-black `}>
       <nav
         className={`relative z-10 mx-auto px-5 md:px-10 py-4 transition-all duration-300`}
       >

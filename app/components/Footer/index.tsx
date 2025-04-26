@@ -115,7 +115,7 @@ const Footer = () => {
       <div className="max-w-[1300px] mx-auto pb-10">
         <hr className="border-gray" />
         <p className="text-center pt-4 text-md">
-          Copyright &copy; <span className="text-primary ">Peaks Holidays</span>{" "}
+          Copyright &copy; <span className="text-primary ">White Rush</span>{" "}
         </p>
       </div>
     </div>

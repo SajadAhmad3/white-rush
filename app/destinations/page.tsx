@@ -1,12 +1,11 @@
 import React from "react";
-import Container from "../components/Container";
 import Image from "next/image";
 import DestinationCard from "../components/destinations/DestinationCard";
 import { destinations } from "../utils/destinations/destData";
 
 const Destinations = () => {
   return (
-    <Container className="mb-10 mt-[70px]">
+    <div className="mb-5">
       <div className="relative w-full h-[200px] lg:h-[350px] ">
         <Image
           src={"/images/home/snowboard.jpg"}
@@ -27,7 +26,7 @@ const Destinations = () => {
           <DestinationCard key={destination.slug} {...destination} />
         ))}
       </div>
-    </Container>
+    </div>
   );
 };
 

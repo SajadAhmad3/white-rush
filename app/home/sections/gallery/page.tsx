@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function Gallery() {
   return (
-    <Container className="my-5 md:my-20">
+    <Container className="my-5 md:my-20 hidden md:block">
       <div className="my-4 md:my-10 md:hidden">
         <Heading
           title="GALLERY"

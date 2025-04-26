@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const Packages = () => {
   return (
-    <Container className="mb-10 mt-[70px]">
+    <div className="mb-5">
       <div className="relative w-full h-[200px] lg:h-[350px] ">
         <Image
           src={"/images/home/snowboard.jpg"}
@@ -23,12 +23,14 @@ const Packages = () => {
       </div>
 
       {/* Grid Layout */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
-        {packagesData?.map((pkg, index) => (
-          <PackageCard key={index} {...pkg} />
-        ))}
-      </div>
-    </Container>
+      <Container>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
+          {packagesData?.map((pkg, index) => (
+            <PackageCard key={index} {...pkg} />
+          ))}
+        </div>
+      </Container>
+    </div>
   );
 };
 
