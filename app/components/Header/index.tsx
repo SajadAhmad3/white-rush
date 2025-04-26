@@ -21,9 +21,9 @@ const Header = () => {
         className={`relative z-10 mx-auto px-5 md:px-10 py-4 transition-all duration-300`}
       >
         <div className="flex items-center justify-between w-full mx-auto">
-          <Link href="/" className="relative w-[80px] h-[50px] rotate-3">
+          <Link href="/" className="relative w-[120px] h-[80px] ">
             <Image
-              src="/images/peak-2.png"
+              src="/images/whiterush.png"
               alt="logo"
               fill
               priority

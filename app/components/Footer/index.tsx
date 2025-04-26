@@ -25,13 +25,13 @@ const Footer = () => {
     <div className="bg-muted-900 text-white">
       <div className="max-w-[1300px] mx-auto grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 px-4 pb-4 gap-8 min-h-[400px] pt-10">
         <div className="flex flex-col gap-4">
-          <Link href="/" className="relative w-[100px] h-[80px] rotate-3">
+          <Link href="/" className="relative w-[120px] h-[80px]">
             <Image
-              src="/images/peak-white-2.png"
+              src="/images/whiterush.png"
               alt="logo"
               fill
               priority
-              className="w-full h-full object-contain"
+              className="w-full h-full object-cover"
             />
           </Link>
 
