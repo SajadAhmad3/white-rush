@@ -13,11 +13,11 @@ const WhatsAppRedirect = () => {
   };
 
   return (
-    <div>
+    <div className="z-50 ">
       <button
         type="button"
         onClick={handleWhatsAppRedirect}
-        className="text-green-500 hover:text-green-600"
+        className="text-green-500 hover:text-green-600 "
         title="Chat with us on WhatsApp"
         aria-label="Chat with us on WhatsApp"
       >

@@ -17,7 +17,7 @@ function Home() {
       <Services />
       <Packages />
       <ContactUs />
-      <div className="fixed bottom-8 right-8">
+      <div className="fixed bottom-8 right-8 z-10">
         <WhatsAppRedirect />
       </div>
       <Gallery />
