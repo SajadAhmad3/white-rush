@@ -27,7 +27,7 @@ const Footer = () => {
         <div className="flex flex-col gap-4">
           <Link href="/" className="relative w-[120px] h-[80px]">
             <Image
-              src="/images/whiterush.png"
+              src="/images/whiterush-white.png"
               alt="logo"
               fill
               priority

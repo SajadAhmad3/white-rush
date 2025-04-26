@@ -24,7 +24,7 @@ const Menu: React.FC = () => {
   }, [isOpen]);
 
   return (
-    <div className="lg:hidden relative">
+    <div className="md:hidden relative">
       <button
         className={`text-black bg-white rounded-full p-2 focus:outline-none transform transition-transform duration-500 ${
           isOpen ? "rotate-180" : "rotate-0"
@@ -39,7 +39,7 @@ const Menu: React.FC = () => {
       </button>
 
       <div
-        className={`fixed top-[70px] left-0 pb-10 w-full bg-muted-900 items-center flex flex-col -z-10 transition-all duration-500 ease-in-out ${
+        className={`fixed top-[90px] left-0 pb-10 w-full bg-muted-900 items-center flex flex-col -z-10 transition-all duration-500 ease-in-out ${
           isOpen ? "translate-x-0" : "-translate-x-full"
         }`}
         style={{

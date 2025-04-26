@@ -16,14 +16,22 @@ const Header = () => {
   };
 
   return (
-    <div className={`${pathname === "/" ? "absolute" : ""} w-full top-0 left-0 right-0 bg-black `}>
+    <div
+      className={`${
+        pathname === "/" ? "absolute" : ""
+      } w-full top-0 left-0 right-0 bg-black `}
+    >
       <nav
-        className={`relative z-10 mx-auto px-5 md:px-10 py-4 transition-all duration-300`}
+        className={`relative z-10 mx-auto px-5 md:px-10 pt-2 md:py-4 transition-all duration-300`}
       >
         <div className="flex items-center justify-between w-full mx-auto">
           <Link href="/" className="relative w-[120px] h-[80px] ">
             <Image
-              src="/images/whiterush.png"
+              src={`${
+                pathname === "/"
+                  ? "/images/whiterush.png"
+                  : "/images/whiterush-white.png"
+              }`}
               alt="logo"
               fill
               priority
