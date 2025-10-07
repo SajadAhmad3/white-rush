@@ -11,6 +11,7 @@ interface PackageProps {
   highlights?: string[];
   price?: string;
   description?: string;
+  people?: string;
 }
 
 const PackageCard: React.FC<PackageProps> = ({
@@ -19,6 +20,7 @@ const PackageCard: React.FC<PackageProps> = ({
   highlights,
   description,
   price,
+  people,
 }) => {
   const router = useRouter();
 
@@ -56,7 +58,7 @@ const PackageCard: React.FC<PackageProps> = ({
         <div className="flex items-center justify-between py-4">
           <div>
             <span className="text-md font-medium text-gray-600">
-              per person
+              {people}
             </span>
             <p className="text-xl font-bold text-black mt-1">{price}</p>
           </div>

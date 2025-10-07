@@ -1,6 +1,7 @@
 [
     { "path": "/", "label": "Home" },
     { "path": "/destinations", "label": "Destinations" },
+    { "path": "/ski-snowboarding", "label": "Ski & Snowboarding" },
     { "path": "/packages", "label": "Packages" }
   ]
   

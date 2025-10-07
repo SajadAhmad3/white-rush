@@ -4,8 +4,8 @@ export const homePackagesData = [
     image: "/images/home/kashmir-honeymoon.jpg",
     location: "Kashmir",
     duration: "5 days",
-    people: "Per Person",
-    price: "₹25,000",
+    // people: "Per Person",
+    // price: "₹25,000",
     description:
       "A romantic getaway through the serene valleys, lakes, and gardens of Kashmir—perfect for newlyweds.",
     highlights: [
@@ -20,7 +20,7 @@ export const homePackagesData = [
     image: "/images/home/skiing.jpg",
     location: "Gulmarg",
     duration: "4 days",
-    price: "₹14,999",
+    // price: "₹14,999",
     description:
       "Experience the thrill of skiing on powdery slopes in India’s premier winter destination.",
     highlights: [
@@ -35,8 +35,8 @@ export const homePackagesData = [
     image: "/images/home/pahalgam_rafting.jpg",
     location: "Pahalgam",
     duration: "3 days",
-    people: "Per Person",
-    price: "₹12,500",
+    // people: "Per Person",
+    // price: "₹12,500",
     description:
       "Dive into adventure with exhilarating river rafting and scenic beauty in Pahalgam.",
     highlights: [
@@ -51,8 +51,8 @@ export const homePackagesData = [
     image: "/images/home/sonamarg_camping.jpg",
     location: "Sonamarg",
     duration: "4 days",
-    people: "Per Person",
-    price: "₹15,500",
+    // people: "Per Person",
+    // price: "₹15,500",
     description:
       "Camp under the stars and explore meadows and glaciers in the untouched wilderness of Sonamarg.",
     highlights: [
@@ -67,8 +67,8 @@ export const homePackagesData = [
     image: "/images/home/houseboat.jpg",
     location: "Srinagar",
     duration: "3 days",
-    people: "Per Person",
-    price: "₹9,999",
+    // people: "Per Person",
+    // price: "₹9,999",
     description:
       "Relax on a traditional houseboat while cruising the Dal Lake with views of the majestic Himalayas.",
     highlights: [
@@ -83,8 +83,8 @@ export const homePackagesData = [
     image: "/images/home/ladakh-ride.jpg",
     location: "Leh-Ladakh",
     duration: "10 days",
-    people: "Per Person",
-    price: "₹28,999",
+    // people: "Per Person",
+    // price: "₹28,999",
     description:
       "Embark on an unforgettable bike journey through the rugged terrain and high passes of Ladakh.",
     highlights: [
