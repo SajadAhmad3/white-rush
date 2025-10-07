@@ -33,11 +33,11 @@ const Services = () => {
           />
           <div className="relative w-full h-[180px] rounded-xl overflow-hidden hidden md:block">
             <Image
-              src="/images/home/banner.jpg"
+              src="/images/packages/pahalgam_rafting.jpg"
               alt="Banner"
               fill
               priority
-              className="object-cover w-full h-full"
+              className="object-fit w-full h-full"
             />
           </div>
         </div>
@@ -46,7 +46,7 @@ const Services = () => {
         <div className="row-span-3 relative w-full h-full">
           <div className="relative w-full h-[590px] rounded-xl overflow-hidden">
             <Image
-              src="/images/home/banner.jpg"
+              src="/images/packages/ski/bro.jpg"
               alt="Banner"
               fill
               priority

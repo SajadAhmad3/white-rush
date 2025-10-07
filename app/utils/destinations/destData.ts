@@ -8,7 +8,7 @@ export interface Destination {
 export const destinationsData: Destination[] = [
   {
     name: "Gulmarg",
-    image: "/images/home/gulmarg.jpg",
+    image: "/images/home/hotel.jpg",
     discount: "30% OFF",
     description:
       "A paradise for skiers and nature lovers, Gulmarg offers snowy peaks and scenic meadows.",
@@ -35,11 +35,11 @@ export const destinationsData: Destination[] = [
       "A peaceful valley town surrounded by lush forests, rivers, and mountain views.",
   },
   {
-    name: "Ladakh",
-    image: "/images/home/ladakh-ride.jpg",
-    discount: "20% OFF",
+    name: "Gurez Valley",
+    image: "/images/home/gurez.png",
+    discount: "10% OFF",
     description:
-      "Explore high-altitude deserts, monasteries, and epic bike routes in rugged Ladakh.",
+      " A picturesque valley known for its scenic beauty and Bollywood connections.",
   },
   {
     name: "Ladakh",

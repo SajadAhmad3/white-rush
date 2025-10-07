@@ -34,7 +34,7 @@ export default function Gallery() {
         </div>
 
         {/* Responsive gallery images */}
-        {galleryData.slice(0, 4).map((item, index) => (
+        {galleryData.map((item, index) => (
           <div
             key={index}
             className="col-span-1 relative w-full h-[300px] rounded-3xl overflow-hidden"

@@ -13,7 +13,7 @@ import Image from "next/image";
 import Link from "next/link";
 import navigationData from "../Header/Nav.json";
 import { useRouter } from "next/navigation";
-import { EMAIL, SECONDARY_PHONE_NUMBER, WHATSAPP_NUMBER } from "@/app/utils/constants";
+import { ADDRESS, EMAIL, SECONDARY_PHONE_NUMBER, WHATSAPP_NUMBER } from "@/app/utils/constants";
 
 const Footer = () => {
   const router = useRouter();
@@ -96,7 +96,7 @@ const Footer = () => {
               <MapPin size={40} className="text-yellow-500" />
               <div>
                 <p className="text-md">
-                  Main Market Gulmarg, Baramulla - 193403
+                 {ADDRESS}
                 </p>
               </div>
             </div>
